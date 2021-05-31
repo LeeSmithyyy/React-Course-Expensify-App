@@ -5,29 +5,24 @@ exports[`Should render header correctly 1`] = `
   <h1>
     Expensify
   </h1>
-  <div>
-    <NavLink
-      activeClassName="is-active"
-      ariaCurrent="true"
-      exact={true}
-      to="/"
-    >
-      Dashboard
-    </NavLink>
-    <NavLink
-      activeClassName="is-active"
-      ariaCurrent="true"
-      to="/create"
-    >
-      Create Expense
-    </NavLink>
-    <NavLink
-      activeClassName="is-active"
-      ariaCurrent="true"
-      to="/help"
-    >
-      Help
-    </NavLink>
-  </div>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    to="/dashboard"
+  >
+    Dashboard
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    to="/create"
+  >
+    Create Expense
+  </NavLink>
+  <button
+    onClick={[Function]}
+  >
+    Logout
+  </button>
 </header>
 `;
